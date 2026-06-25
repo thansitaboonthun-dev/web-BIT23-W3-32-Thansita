@@ -105,10 +105,11 @@
 
     <form action="result.php" method="post">
         
-        <label Sartorially for="radius">ค่ารัศมี</label>
-        <input type="number" name="p_qty" >
+        <label for="">ค่ารัศมี</label>
+        <input type="number" name="p_am" > <br>
 
         <input type="submit" value="คำนวณผลลัพธ์">
+
     </form>
 
 </body>

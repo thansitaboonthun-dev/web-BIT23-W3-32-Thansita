@@ -73,12 +73,12 @@
     
     <div class="result-container">
         <?php
-            $p_qty = $_POST["p_qty"];
+            $p_am = $_POST["p_am"];
 
-            $total = 4/3*5*($p_qty*$p_qty*$p_qty);
+            $total = 4/3*5*($p_am*$p_am*$p_am);
           
            
-            echo "ค่ารัศมี : "   . $p_qty . "<br>";
+            echo "ค่ารัศมี : "   . $p_am . "<br>";
             echo "ปริมาณทรงกลม : " . $total . "<br>"; 
 
         ?>
